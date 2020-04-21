@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/oldpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mật khẩu hiện tại"
+        android:textColorHint="#F44336"
+        android:inputType="textPassword"
+        android:layout_marginStart="10dp" />
+    <EditText
+        android:id="@+id/updatepass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mật khẩu mới"
+        android:textColorHint="#03A9F4"
+        android:inputType="textPassword"
+        android:layout_marginStart="10dp" />
+    <EditText
+        android:id="@+id/updatepass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập lại mật khẩu mới"
+        android:textColorHint="#03A9F4"
+        android:inputType="textPassword"
+        android:layout_marginStart="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/cancel"
+            android:text="cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/ok"
+            android:text="save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
